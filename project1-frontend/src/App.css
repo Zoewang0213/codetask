@@ -1,0 +1,109 @@
+.App {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.App-header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.App-header p {
+  margin: 8px 0 0;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+
+.App-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.App-nav button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #e8ecf1;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.App-nav button:hover {
+  background: #d0d7e2;
+}
+
+.App-nav button.active {
+  background: #4a90d9;
+  color: white;
+}
+
+.App-main {
+  padding: 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.networks-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.network-panel {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.timeline-container > div {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.optimized-container {
+  display: flex;
+  justify-content: center;
+}
+
+.optimized-container > div {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.App-footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.App-footer p {
+  margin: 4px 0;
+}

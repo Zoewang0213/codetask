@@ -1,0 +1,46 @@
+# Data files - too large for git
+sciscinet_data/
+*.parquet
+
+# Cache directories
+.cache/
+__pycache__/
+*.pyc
+
+# Node modules
+node_modules/
+
+# Build outputs
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+.venv/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
